@@ -22,6 +22,6 @@ If you are confident about your commits you can push it directly to the main bra
 
 ## What next?
 
--[] The boiler plate code for the project is ready.
--[] Waiting for clearance from the UI/UX team to start the development.
--[] The contact details of the project admin will be updated soon.
+- [ ] The boiler plate code for the project is ready.
+- [ ] Waiting for clearance from the UI/UX team to start the development.
+- [ ] The contact details of the project admin will be updated soon.
