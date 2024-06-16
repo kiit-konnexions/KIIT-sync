@@ -1,22 +1,26 @@
 import React from "react";
-
-import Link from "next/link";
+import Button from "./Button";
+import Mockup from "./Mockup";
 
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-col justify-start max-w-fit mt-4 py-1 px-60 sm:w-full sm:px-4 sm:py-2 min-w-fit lg:px-4 lg:py-2 xl:px-[7.8em]">
-        <h3 className=" font-semibold text-xl text-black">Some Heading</h3>
-        <p className="text-black">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti
-          deserunt eius consequuntur magni cumque ipsa cupiditate rerum ad
-          magnam laboriosam nam quasi, ipsam dolor dolores voluptatibus quas
-          voluptatem explicabo accusamus.
-        </p>
-        <div className="mt-2 text-blue-600 hover:underline w-fit">
-          <Link href={"/"}>Learn More --{">"}</Link>
+      <div>
+        <div className="h-[116px] w-[747px] mx-auto px-1 text-[36px] text-center mt-[149px] sm:w-[314px] sm:h-[126px] sm:ml-[15px] sm:mt-[119px] sm:mx-0 sm:text-[26px] sm:text-left xl:w-[547px]">
+          <h1 className=" font-medium">
+            Lorem, ipsum dolor sit amet{" "}
+            <span className=" font-extralight">consectetur </span>adipisicing
+            elit.
+          </h1>
+        </div>
+        <div className=" mt-2 h-[64px] w-[642px] px-1 text-[16px] font-light text-center mx-auto sm:w-[338px] sm:h-[120px] sm:text-[14px] sm:ml-[15px] sm:mx-0 sm:text-left xl:w-[442px]">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          illum placeat minima. Reprehenderit nihil officia, quidem voluptatem
+          culpa necessitatibus.
         </div>
       </div>
+      <Button />
+      <Mockup />
     </>
   );
 };
