@@ -20,7 +20,7 @@ module.exports = {
   plugins: [],
   // theme: {
   //   screens: {
-      
+
   //     '3xl' : '1984px',
 
   //     "2xl": { max: "1535px" },
