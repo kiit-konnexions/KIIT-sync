@@ -5,7 +5,7 @@ import "../globals.css";
 const Features = () => {
   return (
     <>
-      <div className="w-[90%] my-9 flex flex-col mx-auto">
+      <div className="w-[90%] my-9 flex flex-col mx-auto relative">
         <div className="flex justify-center gap-2 mr-4 xl:mt-8">
           <Image src="/FeaturesLogo.png" alt="" width={40} height={33} />
           <h1 className="text-4xl font-inter font-medium">Features</h1>
