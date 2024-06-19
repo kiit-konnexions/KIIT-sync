@@ -4,6 +4,7 @@ import FeatureCard from "./featureCard";
 import ViewFeatureButton from "../features/viewFeatureButton";
 import { useState } from "react";
 import React from "react";
+import RequestFeature from "./requestFeature";
 
 const FeatureCards = () => {
   const [open, setOpen] = useState(false);
@@ -57,31 +58,30 @@ const FeatureCards = () => {
   ];
   return (
     <>
-    {/* for small screen */}
-      <div className="flex flex-wrap mt-8 gap-6 justify-center xl:hidden lg:hidden">
+      {/* for small screen */}
+      <div className="flex flex-wrap mt-8 gap-6 justify-center min-[1285px]:hidden lg:hidden">
         {content.slice(0, open ? 9 : 3).map((item) => (
           <FeatureCard item={item} key={item.index} open={open} />
         ))}
       </div>
-    {/* for large screen */}
-      <div className="lg:flex flex-wrap mt-8 gap-6 justify-center hidden xl:hidden">
+      {/* for large screen */}
+      <div className="lg:flex flex-wrap mt-8 gap-6 justify-center hidden min-[1285px]:hidden">
         {content.slice(0, open ? 9 : 4).map((item) => (
           <FeatureCard item={item} key={item.index} open={open} />
         ))}
       </div>
-    {/* for extra large screen */}
-      <div className="xl:flex flex-wrap mt-8 gap-6 justify-center hidden lg:hidden">
+      {/* for extra large screen */}
+      <div className="min-[1285px]:flex flex-wrap mt-8 gap-6 justify-center hidden lg:hidden">
         {content.slice(0, open ? 9 : 6).map((item) => (
           <FeatureCard item={item} key={item.index} open={open} />
         ))}
       </div>
-      <div className={`${open==false && 'custom-gradient'} z-10 h-[290px] w-full absolute bottom-24`}>
-      </div>
+      {/* div for gradient effect */}
+      <div
+        className={`${open == false ? "bg-gradient-to-b from-white/[36%] to-white" : "hidden"} z-10 h-[290px] w-full absolute bottom-28`}
+      ></div>
       <ViewFeatureButton open={open} setOpen={setOpen} />
-      <div className={`flex gap-1 z-20 mx-auto ${!open ? "relative bottom-16" : "relative top-8"} `}>
-      <div>Got an idea?</div>
-      <div className="text-blue-700">Request a feature</div>
-      </div>
+      <RequestFeature open={open} />
     </>
   );
 };

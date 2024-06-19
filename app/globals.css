@@ -7,8 +7,3 @@
 .font-inter {
   font-family: "Inter", sans-serif;
 }
-
-.custom-gradient {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.36), rgb(255, 255, 255));
-}
-
