@@ -2,12 +2,12 @@ import Card from "./components/Card";
 import Contributor from "./components/Contributor";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-
+import ContributorSection from "./components/Contributor/contributorSection";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <div className="flex gap-5 w-full justify-center items-center sm:px-3">
+      {/* <Navbar /> */}
+      {/* <div className="flex gap-5 w-full justify-center items-center sm:px-3">
         <Card
           iconSrc={"/Student.jpeg"}
           title="Students"
@@ -18,9 +18,10 @@ export default function Home() {
           title="Teachers"
           bgColor="bg-slate-100"
         />
-      </div>
-      <Hero />
-      <Contributor />
+      </div> */}
+      {/* <Hero /> */}
+      {/* <Contributor /> */}
+      <ContributorSection />
     </>
   );
 }
