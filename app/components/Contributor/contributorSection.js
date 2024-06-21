@@ -4,7 +4,18 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function ContributorSection() {
   return (
-    <div class="flex-col items-center justify-center my-20 bg-white md:mx-16 xl:mx-72 lg:mx-40 xxl:mx-60">
+    <div class="flex-col items-center   justify-center my-20 bg-white md:mx-16 xl:mx-72 lg:mx-40 xxl:mx-60">
+<div class="xl:top-5 lg:top-20 lg:right-0 absolute xl:right-0 hidden lg:block">
+    <img src="./ContributorElement.png"
+         alt="contributors icon"
+         class="xl:w-[532px] xl:h-[532px] lg:w-[400px] lg:h-[400px] hidden md:block" />
+</div>
+<div class="top-[210px] absolute xl:right-28 lg:right-20 hidden lg:block">
+    <img src="./star.png"
+         alt="contributors icon"
+         class="lg:w-[40px] lg:h-[40px] md:w-[550px] md:h-[550px] hidden md:block" />
+</div>
+
       <div class="flex justify-start md:justify-center mx-5 items-center">
         <img
           src="./contributor.png"
@@ -17,6 +28,7 @@ export default function ContributorSection() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor.
       </p>
+      
       <Contributor />
 
       <button className="flex items-center justify-center my-16  mx-auto lg:px-10 px-7 py-4 lg:py-4 bg-black text-white rounded-full hover:bg-gray-800">
