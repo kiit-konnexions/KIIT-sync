@@ -9,27 +9,27 @@ const members = [
   },
   {
     name: 'John Doe',
-    profilePhoto: './profile.png',
+    profilePhoto: './Profile.png',
     githubLink: '#',
   },
   {
     name: 'John Doe',
-    profilePhoto: './profile.png',
+    profilePhoto: './Profile.png',
     githubLink: '#',
   },
   {
     name: 'John Doe',
-    profilePhoto: './profile.png',
+    profilePhoto: './Profile.png',
     githubLink: '#',
   },
   {
     name: 'John Doe',
-    profilePhoto: './profile.png',
+    profilePhoto: './Profile.png',
     githubLink: '#',
   },
   {
     name: 'John Doe',
-    profilePhoto: './profile.png',
+    profilePhoto: './Profile.png',
     githubLink: '#',
   },
 
