@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <Hero />
       <Contributor />
-      <Footer/>
+      <Footer />
     </>
   );
 }
