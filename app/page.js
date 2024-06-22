@@ -1,5 +1,6 @@
 import Card from "./components/Card";
 import Contributor from "./components/Contributor";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -21,6 +22,7 @@ export default function Home() {
       </div>
       <Hero />
       <Contributor />
+      <Footer/>
     </>
   );
 }
