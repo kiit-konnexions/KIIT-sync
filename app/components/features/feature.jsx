@@ -1,6 +1,6 @@
 import Image from "next/image";
-import FeatureCards from "../components/features/featureCards";
-import "../globals.css";
+import FeatureCards from "./featureCards";
+import "../../globals.css";
 
 const Features = () => {
   return (
