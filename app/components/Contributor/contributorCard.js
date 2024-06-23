@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 const members = [
   {
     name: 'John Doe',
-    profilePhoto: './profile.png',
+    profilePhoto: './Profile.png',
     githubLink: '#',
   },
   {
