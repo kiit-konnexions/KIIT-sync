@@ -6,7 +6,7 @@ export default function ContributorSection() {
   return (
     <div className="flex-col items-center   justify-center my-20 bg-white md:mx-16 xl:mx-72 lg:mx-40 xxl:mx-60">
 <div className="xl:top-5 lg:top-20 lg:right-0 absolute xl:right-0 hidden lg:block">
-    <img src="./ContributorElement.png"
+    <img src="./contributorElement.png"
          alt="contributors icon"
          className="xl:w-[532px] xl:h-[532px] lg:w-[400px] lg:h-[400px] hidden md:block" />
 </div>
