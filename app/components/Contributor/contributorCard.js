@@ -42,7 +42,7 @@ export default function ContributorCard() {
         <div key={index} className=" bg-white rounded-lg   m-5">
           <div className="flex flex-col items-center m-2 ">
             <div className="border-[1px] rounded-full border-[#C5C5C5]  flex items-center justify-center">
-              <img src={member.profilePhoto} alt="Profile Picture" className="xxl:w-[150px] lg:w-[100px] w-[85px] m-2 bg-white  rounded-full" />
+              <img src={member.profilePhoto} alt="Profile Picture" className="xl:w-[150px] lg:w-[100px] w-[85px] m-2 bg-white  rounded-full" />
             </div>
             <h2 className="mt-4 lg:text-xl text-[18px] font-semibold text-gray-800">{member.name}</h2>
           <div className="flex">

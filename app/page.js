@@ -9,7 +9,7 @@ export default function Home() {
       <GradientItems />
       <Hero />
       <Features />
-      {/* <ContributorSection /> */}
+      <ContributorSection />
       <Footer />
     </>
   );
