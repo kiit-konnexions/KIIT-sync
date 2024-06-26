@@ -1,4 +1,3 @@
-
 import GradientItems from "./components/GradientItems";
 import Hero from "./components/Hero";
 import Features from "./components/features/feature";
