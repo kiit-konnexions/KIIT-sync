@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Navbar() {
-  return(
+  return (
     <nav className="flex justify-between items-center bg-white py-6 px-10">
       <div className="flex items-center">
         <div className="mr-2">
@@ -28,8 +28,7 @@ export default function Navbar() {
         <button className="bg-white border border-gray-300 rounded-md py-2 px-4 text-black hover:bg-gray-200 shadow-sm">
           How to contribute
         </button>
-        </div>
-        </nav>
- 
+      </div>
+    </nav>
   );
 }
