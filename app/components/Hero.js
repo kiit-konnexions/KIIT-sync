@@ -5,22 +5,22 @@ import Mockup from "./Mockup";
 const Hero = () => {
   return (
     <>
-      <div>
-        <div className="h-[116px] w-[747px] mx-auto px-1 text-[36px] text-center mt-[149px] sm:w-[314px] sm:h-[126px] sm:ml-[15px] sm:mt-[119px] sm:mx-0 sm:text-[26px] sm:text-left xl:w-[547px]">
-          <h1 className=" font-medium">
-            Lorem, ipsum dolor sit amet{" "}
-            <span className=" font-extralight">consectetur </span>adipisicing
+      <div className="md:flex md:justify-center md:items-center ">
+        <div className="absolute text-[26px] h-[126px] w-[314px] top-[119px] ml-[22px] xl:w-[747px] xl:h-[116px] xl:top-[149px] xl:ml-0 xl:left-[284px] xl:text-[36px] xl:font-[500] xl:text-center xl:text-black md:text-[36px] md:text-center md:w-[500px] md:h-fit md:mx-auto md:px-2 md:py-1">
+          <h1 className="font-medium">
+            Lorem, ipsum dolor sit amet
+            <span className="font-extralight"> consectetur </span>adipisicing
             elit.
           </h1>
         </div>
-        <div className=" mt-2 h-[64px] w-[642px] px-1 text-[16px] font-light text-center mx-auto sm:w-[338px] sm:h-[120px] sm:text-[14px] sm:ml-[15px] sm:mx-0 sm:text-left xl:w-[442px]">
+        <div className=" absolute h-[120px] w-[338px] top-[259px] ml-[22px] text-[14px] xl:text-center xl:w-[642px] xl:h-[64px] xl:top-[281px] xl:ml-0 xl:left-[335px] xl:font-light xl:text-[16px] md:h-fit md:w-[450px] md:px-2 md:py-1 md:text-center md:ml-0 md:top-[250px]">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
           illum placeat minima. Reprehenderit nihil officia, quidem voluptatem
           culpa necessitatibus.
         </div>
+        <Button />
+        <Mockup />
       </div>
-      <Button />
-      <Mockup />
     </>
   );
 };
