@@ -1,17 +1,35 @@
 import React from "react";
 
-const Navbar = () => {
-  return (
-    <nav className=" flex justify-between items-center px-6 min-w-full">
-      <div className=" font-bold text-black">
-        Kiit <span className=" font-medium">Sync</span>
+export default function Navbar() {
+  return(
+    <nav className="flex justify-between items-center bg-white py-6 px-10">
+      <div className="flex items-center">
+        <div className="mr-2">
+          <img src="logo.svg" alt="logo" />
+        </div>
+        <span className="text-2xl font-bold mr-1">KiiT</span>
+        <span className="text-2xl">Sync</span>
       </div>
-      <img
-        src="https://s3-alpha-sig.figma.com/img/f550/ac72/f71a0a007c97139193758102cb953fdc?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fdo~9y10xS9SI~zrpwhQcXfAtrYFZ9Sif7eXgd1-c2uTFhykF7X60T6ETCq1-6rFQGqTZlWJlOZKgy5Mq-CyXZMlF6RxZbYy~GSB1hr9IesU0NTb2xqSY3urZ739WWZO-IXJbB7YJ6tHq8knepKWE5loTb1-BG1eiwUjdIMxlwHuCCRxL9m63VkekuqVl2qVmE0Lm~muA7fmOaEJa7P2hd~PpCk9ZuQGHQ3SKBmdgmmk3DoRasAaiRvJSiKkDsleQyy6UVs6CkC08IRgJXtQmV0pcAP9B3V2ay1K0DAfyKnJNyJgu5NZDjJZTEP5-MITb2hgCFgLLPCd3EK46Brf-w__"
-        style={{ height: "50px", width: "55px" }}
-      ></img>
-    </nav>
+      <div className="flex items-center space-x-8">
+        <a href="/" className="text-black hover:text-gray-800">
+          Home
+        </a>
+        <a href="/" className="text-black hover:text-gray-800">
+          Features
+        </a>
+        <a href="/" className="text-black hover:text-gray-800">
+          Contributors
+        </a>
+        <a href="/" className="text-black hover:text-gray-800">
+          Report an issue
+        </a>
+      </div>
+      <div>
+        <button className="bg-white border border-gray-300 rounded-md py-2 px-4 text-black hover:bg-gray-200 shadow-sm">
+          How to contribute
+        </button>
+        </div>
+        </nav>
+ 
   );
-};
-
-export default Navbar;
+}
