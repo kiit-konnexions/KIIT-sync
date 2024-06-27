@@ -21,7 +21,7 @@ const GradientItems = () => {
         />
       </div>
       <div
-        className="absolute z-0 top-[110px] -right-10 rounded-full rounded-r-none flex justify-center items-center h-[195px] w-[195px] xl:rounded-r-full xl:h-[395px] xl:w-[395px] xl:left-[59px] xl:top-[96px] md:left-[7px] md:top-[120px] md:h-[295px] md:w-[295px] lg:left-[80px]"
+        className="absolute z-0 top-[110px] -right-10 rounded-full rounded-r-none flex justify-center items-center h-[195px] w-[195px] xl:rounded-r-full xl:h-[395px] xl:w-[395px] xl:left-[29px] xl:top-[96px] md:left-[7px] md:top-[120px] md:h-[295px] md:w-[295px] lg:left-[80px]"
         style={{
           background: "hsla(263, 75%, 89%, 1)",
           background:
