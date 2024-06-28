@@ -7,7 +7,7 @@ import ContributorSection from "./components/Contributor/contributorSection";
 export default function Home() {
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <GradientItems />
       <Hero />
       <Features />
