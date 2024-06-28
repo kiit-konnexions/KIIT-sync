@@ -1,13 +1,13 @@
-"use client"
-import {useState,use} from "react";
+"use client";
+import { useState, use } from "react";
 
 export default function Navbar() {
-  const[isOpen, setIsOpen]= useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  function getMenuClasses(){
+  function getMenuClasses() {
     let menuClasses = [];
-    if (isOpen){
-      menuClasses =[
+    if (isOpen) {
+      menuClasses = [
         "flex",
         "absolute",
         "top-[60px]",
@@ -17,8 +17,8 @@ export default function Navbar() {
         "flex-col",
         "left-0",
       ];
-    } else{
-      menuClasses = ["hidden","md:flex"];
+    } else {
+      menuClasses = ["hidden", "md:flex"];
     }
     return menuClasses.join(" ");
   }
@@ -51,16 +51,17 @@ export default function Navbar() {
         </button>
       </div>
       <div className="md:hidden flex items-center gap-4">
-      <button className="bg-white border border-gray-300 rounded-md py-2 px-4 text-black hover:bg-gray-200 shadow-sm">
-        <span>Contributors</span>
+        <button className="bg-white border border-gray-300 rounded-md py-2 px-4 text-black hover:bg-gray-200 shadow-sm">
+          <span>Contributors</span>
         </button>
-        <button 
-        onClick={()=>{
-          setIsOpen(!isOpen);
-        }}> 
-      <img src="Menu.svg" alt="Menu"/>
-      </button>
+        <button
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}
+        >
+          <img src="Menu.svg" alt="Menu" />
+        </button>
       </div>
-      </nav>
+    </nav>
   );
 }
