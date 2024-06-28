@@ -32,7 +32,9 @@ export default function Navbar() {
         </button>
       </div>
       <div className="lg:hidden">
-        <button className="px-4 py-2 text-black rounded-3xl border border-slate-300 font-medium shadow-sm bg-white hover:bg-gray-100">Contributors</button>
+        <button className="px-4 py-2 text-black rounded-3xl border border-slate-300 font-medium shadow-sm bg-white hover:bg-gray-100">
+          Contributors
+        </button>
       </div>
     </nav>
   );
