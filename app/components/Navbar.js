@@ -1,12 +1,12 @@
 "use client";
-import {useState,use} from "react";
+import { useState, use } from "react";
 
 export default function Navbar() {
-  const [isOpen , setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  function getMenuClasses(){
-    let menuClasses =[];
-    if(isOpen) {
+  function getMenuClasses() {
+    let menuClasses = [];
+    if (isOpen) {
       menuClasses = [
         "flex",
         "absolute",
@@ -17,8 +17,8 @@ export default function Navbar() {
         "flex-col",
         "left-0",
       ];
-    } else{
-      menuClasses = ["hidden","md:flex"];
+    } else {
+      menuClasses = ["hidden", "md:flex"];
     }
     return menuClasses.join(" ");
   }
@@ -26,7 +26,7 @@ export default function Navbar() {
     <nav className="flex items-center justify-between bg-white py-8 px-10">
       <div className="flex items-center">
         <div className="mr-2">
-          <img src="kiit.svg" alt=""/>
+          <img src="kiit.svg" alt="" />
         </div>
         <div className="">
           <span className="font-bold text-2xl ml-0.5">KiiT</span>
@@ -56,12 +56,12 @@ export default function Navbar() {
         <button className="px-4 py-2 text-black rounded-3xl  border-[1.5px] border-[#D9D9D9] font-medium shadow-sm bg-white hover:bg-gray-100">
           Contributors
         </button>
-        <button 
-          onClick={() =>{
+        <button
+          onClick={() => {
             setIsOpen(!isOpen);
           }}
         >
-          <img src="menu.svg" alt=""/>
+          <img src="menu.svg" alt="" />
         </button>
       </div>
     </nav>
