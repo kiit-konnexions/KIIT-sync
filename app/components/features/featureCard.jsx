@@ -3,10 +3,10 @@ import Image from "next/image";
 const FeatureCard = ({ item }) => {
   return (
     <>
-      <div className="border-2 border-[#D3D3D3] flex flex-col p-7 gap-5 rounded-2xl w-[370px] h-[267px]  hover:border-[#939393] hover:bg-[#fcfcfc]">
-        <Image src="/FcardLogo.png" alt="" width={40} height={40} />
-        <h1 className="text-[20px] font-medium ">{item.title}</h1>
-        <h3 className="text-[15px] text-[#767676] font-normal leading-[26px]">
+      <div className="border flex flex-col p-6 rounded-2xl w-[370px]  hover:border-[#939393] hover:bg-[#fcfcfc]">
+        <img src="/FcardLogo.png" alt="" className="h-8 w-8" />
+        <h1 className="text-[18px] font-medium mt-3">{item.title}</h1>
+        <h3 className="text-[14px] mt-2 text-[#767676] font-normal leading-[2] line-clamp-3">
           {item.body}
         </h3>
       </div>

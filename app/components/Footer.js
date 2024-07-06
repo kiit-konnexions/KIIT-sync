@@ -4,10 +4,10 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-8">
-      <div className="container mx-auto flex flex-row justify-between items-start px-4">
+      <div className="container mx-auto flex gap-4 flex-row justify-between items-start px-4">
         <div className="w-full md:w-1/4 mb-4 md:mb-0">
           <h2 className="text-xl font-bold mb-4">KiiT Sync</h2>
-          <p className="text-gray-400 mb-4">
+          <p className="text-gray-400 mb-4 text-sm font-normal leading-7">
             Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum
             dolor sit amet Lorem ipsum dolor sit amet
           </p>
@@ -26,23 +26,23 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/4 mb-4 md:mb-0">
           <h2 className="text-xl font-bold mb-4">Sitemap</h2>
-          <ul className="text-gray-400">
-            <li className="mb-2">
+          <ul className="text-gray-400 text-sm font-normal leading-6">
+            <li className="mb-1">
               <Link href="#" className="hover:underline">
                 Lorem ipsum dolor sit amet
               </Link>
             </li>
-            <li className="mb-2">
+            <li className="mb-1">
               <Link href="#" className="hover:underline">
                 Lorem ipsum dolor sit amet
               </Link>
             </li>
-            <li className="mb-2">
+            <li className="mb-1">
               <Link href="#" className="hover:underline">
                 Lorem ipsum dolor sit amet
               </Link>
             </li>
-            <li className="mb-2">
+            <li className="mb-1">
               <Link href="#" className="hover:underline">
                 Lorem ipsum dolor sit amet
               </Link>
@@ -51,18 +51,18 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/4 mb-4 md:mb-0">
           <h2 className="text-xl font-bold mb-4">Socials</h2>
-          <ul className="text-gray-400">
+          <ul className="text-gray-400 font-normal text-sm">
             <li className="mb-2">
               <Link href="#" className="hover:underline">
                 Instagram
               </Link>
             </li>
-            <li className="mb-2">
+            <li className="mb-1">
               <Link href="#" className="hover:underline">
                 Facebook
               </Link>
             </li>
-            <li className="mb-2">
+            <li className="mb-1">
               <Link href="#" className="hover:underline">
                 LinkedIn
               </Link>
